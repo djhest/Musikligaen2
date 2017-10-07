@@ -24,7 +24,7 @@ header a:link:hover:visited {
 
 header h1 {
   color: white;
-  font-size: 95%;
+  font-size: 200%;
   font-weight: 700;
   margin: 0;
 }
@@ -53,7 +53,7 @@ header li:hover {
 .jumbotron {
   display: flex;
   text-align:center;
-  align-items:center; 
+  align-items:center;
     background-image: url('assets/school-of-x.jpg');
   background-size: cover;
   color: #ffffff;
