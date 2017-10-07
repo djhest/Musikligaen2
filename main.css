@@ -150,6 +150,10 @@ figure p {
   text-decoration: underline;
 }
 
+figure a {
+  color: black;
+}
+
 figure a:link {
   color: black;
   background-color: transparent;
