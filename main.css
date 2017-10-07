@@ -152,6 +152,12 @@ figure a:link {
   text-decoration: none;
 }
 
+figue a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 figure a:hover {
   color: lightgrey;
   background-color: transparent;
