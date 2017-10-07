@@ -44,7 +44,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('/MLTWO/assets/school-of-x.jpg');
+  background-image: url('assets/school-of-x.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
