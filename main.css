@@ -55,12 +55,12 @@ header li:hover {
   display: flex;
   text-align:center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   align-items:center;
-  background-image: url('assets/school-of-x.jpg');
 =======
-  align-items:center;
-    background-image: url('assets/school-of-x.jpg');
->>>>>>> 53ecc2b82f1d4caec004382b1c4622480ef9a4bb
+  align-items:center; 
+>>>>>>> a2d38b612fd0f731e79468c5e8680d67f2dbd2e4
+  background-image: url('assets/school-of-x.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
