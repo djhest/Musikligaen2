@@ -54,8 +54,7 @@ header li:hover {
   display: flex;
   text-align:center;
   align-items:center; 
-
-  background-image: url('assets/school-of-x.jpg');
+    background-image: url('assets/school-of-x.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -68,12 +67,11 @@ header li:hover {
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
-  margin: 0;
   color: white;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   color: #fff;
 }
 
@@ -153,6 +151,10 @@ section .row img {
 figure p {
   text-decoration: underline;
   color:black;
+}
+
+figure a {
+  color: black;
 }
 
 figure a:link {
