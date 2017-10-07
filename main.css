@@ -36,13 +36,13 @@ header nav {
 }
 
 header ul li {
-  display:inline;
+  display: inline;
   padding: 0 20px;
   margin: 0;
 }
 
 header li:hover {
-  color:lightgrey;
+  color: lightgrey;
 }
 
 
@@ -144,6 +144,18 @@ section .row img {
 
 figure p {
   text-decoration: underline;
+}
+
+figure a:link:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+figure a:hover {
+  color: lightgrey;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 footer {
