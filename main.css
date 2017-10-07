@@ -51,11 +51,9 @@ header li:hover {
   color: lightgrey;
 }
 
-
 .jumbotron {
   display: flex;
   text-align:center;
-  align-items:center;
   align-items:center;
   background-image: url('assets/school-of-x.jpg');
   background-size: cover;
@@ -68,6 +66,7 @@ header li:hover {
   font-size: 60px;
   font-weight: 700;
   color: white;
+  margin-top: 130px;
 }
 
 .jumbotron h3 {
