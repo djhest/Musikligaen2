@@ -71,13 +71,13 @@ header li:hover {
 
 .jumbotron h3 {
   margin: 0 0 10px;
-  color: #fff;
+  color: white;
 }
 
 section .container {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 80;
 }
 
 section .container:hover .overlay {
@@ -129,7 +129,7 @@ section .row img {
 
 .btn-secondary {
   background-color: #000000;
-  color: #ffffff;
+  color: white;
   margin: 0 0 30px;
 }
 
