@@ -146,7 +146,7 @@ figure p {
   text-decoration: underline;
 }
 
-figure a:link:visited {
+figure a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
