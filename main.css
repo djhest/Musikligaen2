@@ -51,6 +51,24 @@ header li:hover {
   color: lightgrey;
 }
 
+header ul a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+header ul a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+header ul a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .jumbotron {
   display: flex;
   text-align:center;
@@ -90,7 +108,7 @@ section .row img {
   height: 300px;
   display: flex;
   padding-bottom: 30px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid lightgrey;
 }
 
 
