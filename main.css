@@ -7,6 +7,7 @@ body {
 header {
   background-color: black;
   padding: 10px;
+  height: 5%;
 }
 
 header .row,
@@ -53,8 +54,13 @@ header li:hover {
 .jumbotron {
   display: flex;
   text-align:center;
+<<<<<<< HEAD
+  align-items:center; 
+  background-image: url('assets/school-of-x.jpg');
+=======
   align-items:center;
     background-image: url('assets/school-of-x.jpg');
+>>>>>>> 53ecc2b82f1d4caec004382b1c4622480ef9a4bb
   background-size: cover;
   color: #ffffff;
   height: 500px;
