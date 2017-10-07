@@ -41,6 +41,10 @@ header ul li {
   margin: 0;
 }
 
+header .punkter {
+  text-align:center!important;
+}
+
 header li:hover {
   color:lightgrey;
 }
@@ -48,7 +52,7 @@ header li:hover {
 
 .jumbotron {
   display: flex;
-  align-items: center;
+  text-align:center;
   background-image: url('assets/school-of-x.jpg');
   background-size: cover;
   color: #ffffff;
