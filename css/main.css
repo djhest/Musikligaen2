@@ -73,12 +73,7 @@ header ul a:active {
   display: flex;
   text-align:center;
   align-items:center;
-<<<<<<< HEAD:css/main.css
-  align-items:center;
-  background-image: url('/assets/school-of-x.jpg');
-=======
   background-image: url('assets/school-of-x.jpg');
->>>>>>> 227e6dae672f9fa496d3e66b684d2e8e12dcfbc8:main.css
   background-size: cover;
   color: #ffffff;
   height: 500px;
