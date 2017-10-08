@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 500px 400px 50px;
+  grid-template-areas:
+  "title title"
+  "header header"
+  "sidebar content"
+  "footer footer";
+}
+
+.title {
+grid-area: title;
+background-color: black;
+}
+
+.title h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 11px;
+}
+
+.title ul {
+  justify-content: center;
+  text-align: center;
+}
+
+.title ul li {
+  display: inline-flex;
+  margin-right: 40px;
+  color: white;
+}
+
+.header {
+grid-area: header;
+display: flex;
+text-align:center;
+align-items:center;
+background-image: url('assets/school-of-x.jpg');
+background-size: cover;
+color: white;
+height: 500px;
+text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.header h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+
+.header h3 {
+  margin: 0 0 10px;
+  color: white;
+}
+
+.btn {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn:hover {
+  color: lightgrey;
+}
+
+.btn-secondary {
+  background-color: #000000;
+  color: white;
+  margin: 0 0 30px;
+}
+
+.sidebar {
+grid-area: sidebar;
+width: 200px;
+height: 300px;
+background-color: lightgrey;
+}
+
+.content {
+grid-area: content;
+}
+
+div .container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+div .container:hover .overlay {
+  opacity: .8;
+}
+
+div img {
+  margin: 0 0 60px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgrey;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 14px;
+  right: 0;
+  height: 270px;
+  width: 501px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.text {
+  color: white;
+  font-size: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+.footer {
+grid-area: footer;
+background-color: black;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.footer ul {
+  color: white;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer ul li {
+  color: white;
+  display: inline;
+  justify-content: center;
+}
+
+.footer li img {
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+
+
+
+/*@media screen and (max-width: 736px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title"
+    "header header"
+    "content content"
+    "footer sidebar";
+  }
+}
+*/
