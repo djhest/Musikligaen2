@@ -73,11 +73,11 @@ header ul a:active {
   display: flex;
   text-align:center;
   align-items:center;
-  background-image: url('assets/school-of-x.jpg');
+  background-image: url('/Users/Jooks/Documents/GitHub/Musikligaen2/assets/school-of-x.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: white;
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: 0.25px 0.25px 0.25px black;
 }
 
 .jumbotron h2 {
