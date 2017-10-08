@@ -57,7 +57,7 @@ header li:hover {
   text-align:center;
   align-items:center;
   align-items:center;
-  background-image: url('assets/school-of-x.jpg');
+  background-image: url('/assets/school-of-x.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
