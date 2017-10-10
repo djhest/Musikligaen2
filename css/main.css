@@ -48,6 +48,7 @@ header ul li {
 header .punkter {
   text-align:center!important;
   padding-bottom: 20px;
+  margin-right: 50px;
 }
 
 header li:hover {
@@ -77,7 +78,6 @@ header ul a:active {
 .jumbotron {
   display: flex;
   text-align:center;
-  align-items:center;
   align-items:center;
   background-image: url('/Users/Jooks/Documents/GitHub/Musikligaen2/assets/school-of-x.jpg');
   background-size: cover;
@@ -115,6 +115,28 @@ header ul a:active {
 
 
 /* CONTENT */
+
+section .col-sm-12 {
+  text-align: center;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+#albums h1 {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+#ep h1 {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+#singler h1 {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
 
 section .container {
   position: relative;
@@ -170,6 +192,7 @@ section .row img {
 figure p {
   text-decoration: underline;
   color:black;
+  margin-top: 20px;
 }
 
 figure a {
