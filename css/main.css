@@ -41,14 +41,12 @@ header nav {
 
 header ul li {
   display: inline;
-  padding: 0 20px;
-  margin: 0;
+  margin-right: 20px;
 }
 
 header .punkter {
   text-align:center!important;
   padding-bottom: 20px;
-  margin-right: 50px;
 }
 
 header li:hover {
@@ -71,6 +69,10 @@ header ul a:active {
   color: white;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.login {
+  padding-left: 600px;
 }
 
 /* JUMBOTRON */
