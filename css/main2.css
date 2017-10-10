@@ -51,7 +51,7 @@ grid-area: header;
 display: flex;
 text-align:center;
 align-items:center;
-background-image: url('assets/school-of-x.jpg');
+background-image: url('/Users/Jooks/Documents/GitHub/Musikligaen2/assets/school-of-x.jpg');
 background-size: cover;
 color: white;
 height: 500px;
@@ -112,7 +112,7 @@ div img {
   display: flex;
   padding-bottom: 30px;
   border-bottom: 1px solid lightgrey;
-  
+
 }
 
 .overlay {
