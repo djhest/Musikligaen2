@@ -1,8 +1,11 @@
+/* BODY */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background-color: white;
 }
+
+/* HEADER */
 
 header {
   background-color: black;
@@ -69,6 +72,8 @@ header ul a:active {
   text-decoration: underline;
 }
 
+/* JUMBOTRON */
+
 .jumbotron {
   display: flex;
   text-align:center;
@@ -93,6 +98,24 @@ header ul a:active {
   color: white;
 }
 
+.btn {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn:hover {
+  color: lightgrey;
+}
+
+.btn-secondary {
+  background-color: #000000;
+  color: white;
+  margin: 0 0 30px;
+}
+
+
+/* CONTENT */
+
 section .container {
   position: relative;
   width: 100%;
@@ -112,7 +135,7 @@ section .row img {
   border-bottom: 1px solid lightgrey;
 }
 
-
+/* CONTENT OVERLAY */
 
 .overlay {
   position: absolute;
@@ -141,34 +164,8 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.btn {
-    color: white;
-    text-decoration: underline;
-}
 
-.btn:hover {
-  color: lightgrey;
-}
-
-.btn-secondary {
-  background-color: #000000;
-  color: white;
-  margin: 0 0 30px;
-}
-
-.text-wrapper {
-  position: relative;
-  margin-top: -35%;
-}
-
-.text-wrapper h1 {
-  text-align: right;
-  color: #EEE;
-  font-size: 5vw;
-  font-family: inherit;
-  text-shadow: 2px 2px #000000;
-  text-decoration: underline;
-}
+/* FIGURE */
 
 figure p {
   text-decoration: underline;
@@ -196,6 +193,8 @@ figure a:hover {
   background-color: transparent;
   text-decoration: none;
 }
+
+/* FOOTER */
 
 footer {
   font-size: 12px;
