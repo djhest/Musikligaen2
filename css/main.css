@@ -46,11 +46,11 @@ header ul li {
 
 header .punkter {
   text-align:center!important;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 header li:hover {
-  color: lightgrey;
+  color: #777777;
 }
 
 header ul a:link {
@@ -73,6 +73,7 @@ header ul a:active {
 
 .login {
   padding-left: 600px;
+  padding-bottom: 10px;
 }
 
 /* JUMBOTRON */
@@ -106,7 +107,7 @@ header ul a:active {
 }
 
 .btn:hover {
-  color: lightgrey;
+  color: #777777;
 }
 
 .btn-secondary {
@@ -119,13 +120,13 @@ header ul a:active {
 /* CONTENT */
 
 #front {
-  display:inline-block;
+  display: inline-block;
 }
 
 section .col-sm-12 {
   text-align: center;
-  border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
 }
 
 #albums h1 {
@@ -160,8 +161,10 @@ section .row img {
   height: 300px;
   display: flex;
   padding-bottom: 30px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #777777;
 }
+
+
 
 /* CONTENT OVERLAY */
 
@@ -201,26 +204,15 @@ figure p {
   margin-top: 20px;
 }
 
-figure a {
-  color: black;
-}
+figure p:hover {
+  color: #777777;
+  transition: 0.1s;
+  -moz-transform: translate(0px, -1px);
+  -ms-transform: translate(0px, -1px);
+  -o-transform: translate(0px, -1px);
+  -webkit-transform: translate(-1px, -1px);
+  transform: translate(0px, -1px)
 
-figure a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-figure a:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-figure a:hover {
-  color: lightgrey;
-  background-color: transparent;
-  text-decoration: none;
 }
 
 /* FOOTER */
