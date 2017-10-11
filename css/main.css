@@ -19,7 +19,19 @@ footer .row {
   align-items: center;
 }
 
-header a:link:hover:visited {
+header a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.1s;
+  -moz-transform: translate(0px, -1px);
+  -ms-transform: translate(0px, -1px);
+  -o-transform: translate(0px, -1px);
+  -webkit-transform: translate(-1px, -1px);
+  transform: translate(0px, -1px)
+}
+
+header a:link:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
@@ -101,16 +113,16 @@ header ul a:active {
   color: white;
 }
 
-.btn {
+.button {
     color: white;
     text-decoration: underline;
 }
 
-.btn:hover {
+.button:hover {
   color: #777777;
 }
 
-.btn-secondary {
+.button-secondary {
   background-color: #000000;
   color: white;
   margin: 0 0 30px;
@@ -125,8 +137,8 @@ header ul a:active {
 
 section .col-sm-12 {
   text-align: center;
-  border-top: 1px solid #777777;
-  border-bottom: 1px solid #777777;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 #albums h1 {
@@ -244,6 +256,16 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+footer i:hover {
+  color: white;
+  transition: 0.1s;
+  -moz-transform: translate(0px, -1px);
+  -ms-transform: translate(0px, -1px);
+  -o-transform: translate(0px, -1px);
+  -webkit-transform: translate(-1px, -1px);
+  transform: translate(0px, -1px)
 }
 
 footer a:link {
